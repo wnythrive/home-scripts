@@ -40,9 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
     window.location.href = `/directory?${params.toString()}`;
   });
 });
-</script>
 
-<script defer>
 document.addEventListener('DOMContentLoaded', function () {
   const items = [...document.querySelectorAll('.thrive_listing, .thrive_update')];
 
